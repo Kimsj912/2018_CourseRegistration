@@ -3,21 +3,14 @@ package view;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.FlowLayout;
 import java.awt.Graphics;
-import java.awt.GridLayout;
-import java.awt.Image;
 
 import javax.swing.BorderFactory;
 import javax.swing.Box;
-import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 import global.Constants.EuserPicPane;
-import javafx.scene.layout.BorderImage;
-import javafx.scene.layout.BorderPane;
-import valueObject.VCPersonalInfo;
 
 public class UserPicPane extends JPanel {
 	private static final long serialVersionUID = 1L;

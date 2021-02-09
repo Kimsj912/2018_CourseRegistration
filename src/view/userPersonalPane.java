@@ -2,27 +2,19 @@ package view;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Dimension;
 import java.awt.GridLayout;
-import java.awt.Toolkit;
 import java.util.Vector;
 
 import javax.swing.BorderFactory;
 import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.border.TitledBorder;
 import javax.swing.table.DefaultTableModel;
 
 import control.CDetailPersonalInfo;
-import global.Constants.EMainFrame;
 import global.Constants.EuserPersonalPane;
-import javafx.scene.layout.Border;
 import valueObject.VCDetailPersonalInfo;
-import valueObject.VCLecture;
 
 public class userPersonalPane extends JPanel {
 	private static final long serialVersionUID = 1L;
@@ -36,7 +28,7 @@ public class userPersonalPane extends JPanel {
 		this.showDetailPersonalInfoPane = new ShowDetailPersonalInfoPane();
 		this.add(showDetailPersonalInfoPane, BorderLayout.CENTER);
 
-		// 모양잡기용
+		// 모양잡기용	
 		this.add(Box.createVerticalStrut(10), BorderLayout.NORTH);
 		this.add(Box.createHorizontalStrut(10), BorderLayout.WEST);
 		this.add(Box.createVerticalStrut(10), BorderLayout.SOUTH);
